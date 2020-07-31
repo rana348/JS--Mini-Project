@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stopwatch_JS-by shubhangi</title>
+<!--for styling the webpage-->
+<style>
+    body{
+        background-color: #444444;
+    }
+    p{
+        font-size: 80px;
+        display: inline;
+    }
+    span{
+        display: inline;
+        text-align: center;
+    }
+    button{
+        font-size: 40px;
+        background-color: lightskyblue;
+        border-radius: 15px;
+        color: purple;
+        cursor: pointer;
+    }
+    div#Top{
+        background-color: lightskyblue;
+        display: inline-block;
+        padding: 30px;
+        border-radius: 25px;
+        margin-left: 50px;
+    }
+    h2{
+        color: whitesmoke;
+    }
+</style>    
+</head>   
+<body>
+
+    <code style="color: white;">*****developed by shubhangi******</code><br><br>
+    <h2>simple Stopwatch in js</h2>
+    <h2><pre>Question 2:
+        write a program to make a stopwatch which takes the timer to be set from the user.</pre></h2>
+        <br><br>
+    <div id="Top">
+        <div style="background-color: beige;display: inline-block;padding: 5px 35px 8px;margin-bottom: 10px;">
+            <p><span id="hr">0</span>:<span id="min">0</span>:<span id="sec">0</span></p></div><br> 
+            <button onclick="start()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="reset()">reset</button>
+        </div>
+        <script src="stopwatch.js"></script>       
+</body>        
+ </html>
+       
+       
